@@ -1,0 +1,86 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.user-info-container {
+    margin-top: 20px;
+}
+
+.user-info-container h2 {
+    font-size: 18px;
+}
+
+.user-info-container p {
+    margin-bottom: 5px;
+}
+
+.user-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.top-bar {
+    display: flex;
+    width: 1200px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+}
+
+.logoutbutt {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.logoutbutt:hover {
+    background-color: red;
+}
+
+
+.changepasswordbtn {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .changepasswordbtn:hover {
+    background-color: greenyellow;
+    color: black;
+  }
+  .edituserbtn{
+    margin: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .edituserbtn:hover {
+    background-color: aquamarine;
+    color: black;
+  }
+  

@@ -1,0 +1,129 @@
+.user-table-container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #333;
+    color: white;
+}
+
+.user-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.u-button {
+    padding: 8px 16px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-right: 20px;
+
+}
+
+.u-button:hover {
+    background-color: darkgoldenrod;
+}
+
+.user-status-blocked {
+    color: red;
+}
+
+.user-status-active {
+    color: green;
+}
+
+.edit-button {
+    padding: 8px 16px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.edit-button:hover {
+    background-color: red;
+}
+
+.delete-button {
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+.search-add-back-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back-button {
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-right: 250px;
+}
+.back-button:hover{
+    background-color: aqua;
+}
+
+.search-bar {
+    padding: 8px;
+    width: 200px;
+    margin-left: 25px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-right: auto;
+}
+
+.add-button {
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 250px;
+}
+.add-button:hover{
+    background-color: greenyellow;
+}
+
+.adminsusertitle {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}

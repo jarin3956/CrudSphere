@@ -1,0 +1,29 @@
+.allhome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: gray;
+  }
+  
+  .allhometitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .allhomeuser,
+  .allhomeadmin {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    color: rgb(209, 209, 225);
+    font-weight: 700;
+  }
+  
+  .allhomeuser:hover,
+  .allhomeadmin:hover {
+    text-decoration: underline;
+  }
+  
